@@ -3,279 +3,426 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Logistics Site</title>
+  <title>Global Logistics Solutions - Worldwide Freight Services</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="herosection">
-<div class="container">
-  <nav class="navbar">
-    <div class="logo">LOGISTIC</div>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Service</a></li>
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-  </nav>
-</div>
-<div class="getstarted">
-  <h1>WORLDWIDE FREIGHT <br> SERVICES</h1>
-  <BUtton>GET STARTED !</BUtton>
-</div>
-</div>
- </div>
-  </header>
-  <div class="container2">
-    <div class="section1">
-      <div class="icon"><i class="fa-solid fa-dollar-sign"></i></div>
-      <h3>BEST PRICE</h3>
-     <div class="text-box">
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ad, excepturi pariatur dolorum dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias accusantium laborum quisquam consequuntur et! Vero impedit cum tempora.
-  </p>
-</div>
-    </div>
-   <div class="section2">
-  <p>GET OFFER QUOTE</p>
-
-  <p class="label">Enter Name</p>
-  <input type="text" placeholder="Enter Name" class="input-field" />
-
-  <p class="label">Enter Email</p>
-  <input type="email" placeholder="Enter Email" class="input-field" />
-
-  <button class="quote-btn">GET QUOTE</button>
-   </div>
-      <div class="section3">
-        <div class="icon2"><i class="fa-solid fa-phone"></i></div>
-        <h3>24/7 SUPPORT</h3>
-       <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad corporis doloribus quidem sequi totam porro nesciunt, vel provident veniam laboriosam voluptates assumenda id qui atque ducimus similique vitae. Inventore.</P> 
+  <!-- Header -->
+  <header class="header" id="home">
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <i class="fas fa-shipping-fast"></i>
+          <span>GlobalLogistics</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-  </div>
-  </div>
-    <div class="offer">
-      <h1>WHAT WE OFFER</h1>
-      <P>Lorem ipsum dolor sit amet.</P>
-   <div class="container3">
-  <div class="offer-box">
-    <div class="icon-heading">
-      <i class="fa-solid fa-plane-departure"></i>
-      <h3>Air Freight</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
+    </nav>
 
-  <div class="offer-box">
-    <div class="icon-heading">
-      <i class="fa-solid fa-ship"></i>
-      <h3>Ocean Freight</h3>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="highlight">Worldwide</span> Freight Services
+        </h1>
+        <p class="hero-subtitle">
+          Delivering excellence across borders with reliable, fast, and secure logistics solutions for your global business needs.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Get Started</button>
+          <button class="btn btn-secondary">Learn More</button>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <h3>150+</h3>
+          <p>Countries Served</p>
+        </div>
+        <div class="stat-item">
+          <h3>10K+</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+          <h3>99.9%</h3>
+          <p>Success Rate</p>
+        </div>
+      </div>
     </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
+  </header>
 
-  <div class="offer-box">
-    <div class="icon-heading">
-      <i class="fa-solid fa-truck-front"></i>
-      <h3>Ground Shipping</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
-</div>
-<div class="img-section">
-  <div class="img-box">
-    <p class="img-text">Fly Freight</p>
-    <img src="images/img_2.jpg" alt="">
-  </div>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>Comprehensive logistics solutions tailored to your business requirements</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-plane"></i>
+          </div>
+          <h3>Air Freight</h3>
+          <p>Express air freight services for time-sensitive shipments with global coverage and real-time tracking.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
 
-  <div class="img-box">
-    <p class="img-text">Ocean Freight</p>
-    <img src="images/back-ground-img.jpg" alt="">
-  </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-ship"></i>
+          </div>
+          <h3>Ocean Freight</h3>
+          <p>Cost-effective sea freight solutions for large shipments with comprehensive port-to-port services.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
 
-  <div class="img-box">
-    <p class="img-text">Ground Shipping</p>
-    <img src="images/img_3.jpg" alt="">
-  </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Ground Transport</h3>
+          <p>Reliable ground transportation with extensive network coverage and flexible delivery options.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
 
-  <div class="img-box">
-    <p class="img-text">Wear House</p>
-    <img src="images/img_1.jpg">
-  </div>
-</div>
-<div class="offer-section2">
-      <h1>MORE SERVICES</h1>
-      <P>WE OFFERS FOLLOWING SERVICES.</P>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-warehouse"></i>
+          </div>
+          <h3>Warehousing</h3>
+          <p>Secure storage solutions with inventory management and order fulfillment services worldwide.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
 
- <div class="container4">
-  <div class="offer-boxs">
-    <div class="icon-heading">
-      <i class="fa-solid fa-plane-departure"></i>
-      <h3>Air Freight</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-box"></i>
+          </div>
+          <h3>Packaging</h3>
+          <p>Professional packaging services ensuring your goods are protected throughout the journey.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
 
-  <div class="offer-boxs">
-    <div class="icon-heading">
-      <i class="fa-solid fa-ship"></i>
-      <h3>Ocean Freight</h3>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Supply Chain</h3>
+          <p>End-to-end supply chain management with optimization and real-time visibility solutions.</p>
+          <button class="service-btn">Learn More</button>
+        </div>
+      </div>
     </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
+  </section>
 
-  <div class="offer-boxs">
-    <div class="icon-heading">
-      <i class="fa-solid fa-truck-front"></i>
-      <h3>Ground Shipping</h3>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>Why Choose GlobalLogistics?</h2>
+          <p>With over 15 years of experience in international logistics, we've built a reputation for reliability, efficiency, and customer satisfaction. Our global network spans across 150+ countries, ensuring your shipments reach their destination safely and on time.</p>
+          
+          <div class="features">
+            <div class="feature">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>24/7 Support</h4>
+                <p>Round-the-clock customer service and tracking support</p>
+              </div>
+            </div>
+            
+            <div class="feature">
+              <i class="fas fa-shield-alt"></i>
+              <div>
+                <h4>Secure Shipping</h4>
+                <p>Comprehensive insurance and security measures</p>
+              </div>
+            </div>
+            
+            <div class="feature">
+              <i class="fas fa-globe"></i>
+              <div>
+                <h4>Global Network</h4>
+                <p>Extensive worldwide coverage and local expertise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-image">
+          <img src="images/hero_bg_1.jpg" alt="Logistics Operations">
+        </div>
+      </div>
     </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
-  <br>
-  <div class="offer-boxs">
-    <div class="icon-heading">
-      <i class="fa-solid fa-warehouse"></i>
-      <h3>Wear Housing</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
-  <div class="offer-boxs">
-    <div class="icon-heading">
-      <i class="fa-solid fa-store"></i>
-      <h3>Storge</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
-  <div class="offer-boxs">
-    <div class="icon-heading">
-     <i class="fa-solid fa-truck"></i>
-      <h3>Delivery Van</h3>
-    </div>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non veritatis ipsa laboriosam autem nisi vero inventore nulla!
-    </p>
-    <button class="offers-button">Learn More</button>
-  </div>
-</div>
-<div class="banner">
-  <img src="images/hero_bg_4.jpg" alt="Banner Image">
-  <div class="banner-text">View Our Services</div>
-</div>
-<div class="offer">
-      <h1>Testimonials</h1>
-      <div class="owner">
-  <img src="images/person_1.jpg" alt="Owner Photo">
-  <h3>Christine Aguilar</h3>
-  <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, dolores consequuntur saepe iusto nobis unde maxime reiciendis ad ipsam! Rem".</p>
-</div>
-<hr>
-<div class="offer">
-      <h1>OUR BLOG</h1>
-      <p>See Our Daily News & Updates</p>
-</div>
-<div class="updates">
-  <div class="update1"></div>
- <div class="blog-container">
-  <div class="update-box">
-    <img src="images/img_1.jpg" alt="">
-    <button class="main-btn">Warehouse Your Packages</button>
-    <h4>
-      by Theresa Winston • Jan 18, 2019 at 2:00 pm
-      <button class="small-btn">News</button>
-    </h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque sapiente, rerum magnam pariatur culpa iste vitae.</p>
-  </div>
+  </section>
 
-  <div class="update-box">
-    <img src="images/blog_2.jpg" alt="">
-    <button class="main-btn">Warehouse Your Packages</button>
-    <h4>
-      by Theresa Winston • Jan 18, 2019 at 2:00 pm
-      <button class="small-btn">News</button>
-    </h4>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque sapiente, rerum magnam pariatur culpa iste vitae.</p>
-  </div>
-</div>
-<div class="try-service">
-      <h1>Try Our Services</h1>
-      <button class="ser-bt">GET STARTED</button>
-</div>
-<!-- footer -->
- <footer></footer>
- <div class="footer">
-  <div class="footer-box">
-    <h2>Quick Links</h2>
-    <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-  <div class="footer-box">
-    <h2>Products</h2>
-    <ul>
-    <li><a href="#">About Us</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-  <div class="footer-box">
-    <h2>Features</h2>
-    <ul>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Testimonials</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-  <div class="footer-box">
-    <h2>Follow Us</h2>
-    <div class="social-icons">
-      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+  <!-- Quote Section -->
+  <section class="quote-section">
+    <div class="container">
+      <div class="quote-content">
+        <div class="quote-form">
+          <h3>Get Your Free Quote</h3>
+          <p>Request a customized quote for your shipping needs</p>
+          
+          <form class="quote-form-content">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <select required>
+                <option value="">Select Service</option>
+                <option value="air">Air Freight</option>
+                <option value="ocean">Ocean Freight</option>
+                <option value="ground">Ground Transport</option>
+                <option value="warehouse">Warehousing</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Describe your shipment details" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Get Quote</button>
+          </form>
+        </div>
+        
+        <div class="quote-info">
+          <h3>Why Choose Our Services?</h3>
+          <div class="info-items">
+            <div class="info-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Competitive Pricing</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Fast Delivery</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Real-time Tracking</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-check-circle"></i>
+              <span>24/7 Support</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="footer-box">
-    <h2>Subscribe Newsletter</h2>
-    <div class="subscribe">
-      <input type="email" placeholder="Enter Email">
-      <button>Send</button>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Clients Say</h2>
+        <p>Trusted by businesses worldwide for their logistics needs</p>
+      </div>
+      
+      <div class="testimonials-slider">
+        <div class="testimonial-card active">
+          <div class="testimonial-content">
+            <p>"GlobalLogistics has transformed our supply chain operations. Their reliable service and professional team have helped us expand our business globally."</p>
+            <div class="testimonial-author">
+              <img src="images/person_1.jpg" alt="Sarah Johnson">
+              <div>
+                <h4>Sarah Johnson</h4>
+                <span>CEO, TechCorp International</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Outstanding service quality and competitive pricing. The team at GlobalLogistics understands our business needs perfectly."</p>
+            <div class="testimonial-author">
+              <img src="images/person_2.jpg" alt="Michael Chen">
+              <div>
+                <h4>Michael Chen</h4>
+                <span>Operations Manager, Global Trade Ltd</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Fast, reliable, and professional. GlobalLogistics has been our trusted partner for over 5 years, and they never disappoint."</p>
+            <div class="testimonial-author">
+              <img src="images/person_3.jpg" alt="Emily Rodriguez">
+              <div>
+                <h4>Emily Rodriguez</h4>
+                <span>Logistics Director, Fashion Forward</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider-controls">
+        <button class="slider-btn active" data-slide="0"></button>
+        <button class="slider-btn" data-slide="1"></button>
+        <button class="slider-btn" data-slide="2"></button>
+      </div>
     </div>
-  </div>
-</div>
-</footer>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Ready to optimize your logistics? Contact us today</p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Head Office</h4>
+              <p>123 Business District, New York, NY 10001</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (555) 123-4567</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>info@globallogistics.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" placeholder="First Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <i class="fas fa-shipping-fast"></i>
+            <span>GlobalLogistics</span>
+          </div>
+          <p>Your trusted partner for global logistics solutions. We deliver excellence across borders with reliable, fast, and secure services.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Air Freight</a></li>
+            <li><a href="#">Ocean Freight</a></li>
+            <li><a href="#">Ground Transport</a></li>
+            <li><a href="#">Warehousing</a></li>
+            <li><a href="#">Supply Chain</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">News & Updates</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Track Shipment</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping Guide</a></li>
+            <li><a href="#">Customer Portal</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Newsletter</h4>
+          <p>Subscribe to our newsletter for the latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 GlobalLogistics. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
